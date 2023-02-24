@@ -11,19 +11,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mButton;
-    TextView text;
-    private boolean isFragmentDisplayed = false;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mButton = findViewById(R.id.btn);
-
-
-
     }
-
-
 }
